@@ -8,4 +8,8 @@ module CreateGithubReleaseTest
   def self.hello
     puts "Hello, World!"
   end
+
+  def self.goodbye
+    puts "Goodbye, World!"
+  end
 end
