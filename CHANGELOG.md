@@ -1,3 +1,9 @@
+## v0.3.0 (2023-01-28)
+
+[Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.2.0..v0.3.0)
+
+* 06f8c3e Add goodbye world feature (#10)
+
 ## v0.2.0 (2023-01-28)
 
 [Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.1.1..v0.2.0)
