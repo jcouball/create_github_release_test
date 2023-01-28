@@ -1,3 +1,9 @@
+## v0.2.0 (2023-01-28)
+
+[Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.1.1..v0.2.0)
+
+* e4fb7f9 Add hello world feature (#8)
+
 ## v0.1.1 (2023-01-28)
 
 [Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.1.0..v0.1.1)
