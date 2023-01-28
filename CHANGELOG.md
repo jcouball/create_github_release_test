@@ -1,3 +1,10 @@
+## v0.1.1 (2023-01-28)
+
+[Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.1.0..v0.1.1)
+
+* 4e0adf3 Update usage instructions (#6)
+* f7bd941 Release v0.1.0 (#5)
+
 ## v0.1.0 (2023-01-28)
 
 [Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.0.0..v0.1.0)
