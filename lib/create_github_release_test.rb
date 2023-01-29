@@ -13,4 +13,8 @@ module CreateGithubReleaseTest
   def self.goodbye
     puts "Goodbye, World!"
   end
+
+  def self.aloha
+    puts "Aloha, World!"
+  end
 end
