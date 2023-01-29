@@ -2,6 +2,7 @@
 
 require_relative "create_github_release_test/version"
 
+# The main module for this gem
 module CreateGithubReleaseTest
   class Error < StandardError; end
 
