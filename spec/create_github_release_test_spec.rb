@@ -5,13 +5,13 @@ RSpec.describe CreateGithubReleaseTest do
     expect(CreateGithubReleaseTest::VERSION).not_to be nil
   end
 
-  describe '.hello' do
+  describe ".hello" do
     it 'should output "Hello, World!"' do
       expect { CreateGithubReleaseTest.hello }.to output("Hello, World!\n").to_stdout
     end
   end
 
-  describe '.goodbye' do
+  describe ".goodbye" do
     it 'should output "Goodbye, World!"' do
       expect { CreateGithubReleaseTest.goodbye }.to output("Goodbye, World!\n").to_stdout
     end
