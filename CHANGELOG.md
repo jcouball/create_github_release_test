@@ -1,3 +1,10 @@
+## v0.4.0 (2023-01-29)
+
+[Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.3.0..v0.4.0)
+
+* a3d9342 All Aloha functionality (#13)
+* 74788e1 Relax Ruby requirement down to version 3.0.0 and fix Rubocop offenses (#12)
+
 ## v0.3.0 (2023-01-28)
 
 [Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v0.2.0..v0.3.0)
