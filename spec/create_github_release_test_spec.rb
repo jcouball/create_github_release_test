@@ -16,4 +16,10 @@ RSpec.describe CreateGithubReleaseTest do
       expect { CreateGithubReleaseTest.goodbye }.to output("Goodbye, World!\n").to_stdout
     end
   end
+
+  describe ".aloha" do
+    it 'should output "Aloha, World!"' do
+      expect { CreateGithubReleaseTest.aloha }.to output("Aloha, World!\n").to_stdout
+    end
+  end
 end
