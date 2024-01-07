@@ -1,15 +1,23 @@
 AllCops:
-  TargetRubyVersion: 3.0
-  SuggestExtensions: false
   NewCops: enable
+  # Output extra information for each offense to make it easier to diagnose:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  SuggestExtensions: false
+  # RuboCop enforces rules depending on the oldest version of Ruby which
+  # your project supports:
+  TargetRubyVersion: 3.0
 
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
+# The default max line length is 80 characters
 Layout/LineLength:
   Max: 120
+
+# The DSL for RSpec and the gemspec file make it very hard to limit block length:
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*_spec.rb"
+    - "*.gemspec"
+
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
