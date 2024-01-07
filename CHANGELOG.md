@@ -1,3 +1,11 @@
+## v2.0.1-rc.1 (2024-01-07)
+
+[Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v2.0.0..v2.0.1-rc.1)
+
+Changes since v2.0.0:
+
+* 58fa048 Update rspec and rubocop to latest project standards (#21)
+
 ## v2.0.0 (2023-04-16)
 
 [Full Changelog](https://github.com/jcouball/create_github_release_test/compare/v1.1.0..v2.0.0)
