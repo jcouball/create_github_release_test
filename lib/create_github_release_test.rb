@@ -1,20 +1,20 @@
 # frozen_string_literal: true
 
-require_relative "create_github_release_test/version"
+require_relative 'create_github_release_test/version'
 
 # The main module for this gem
 module CreateGithubReleaseTest
   class Error < StandardError; end
 
   def self.hello
-    puts "Hello, World!"
+    puts 'Hello, World!'
   end
 
   def self.goodbye
-    puts "Goodbye, World!"
+    puts 'Goodbye, World!'
   end
 
   def self.aloha
-    puts "Aloha, World!"
+    puts 'Aloha, World!'
   end
 end

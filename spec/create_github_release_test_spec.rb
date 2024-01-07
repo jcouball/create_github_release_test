@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
 RSpec.describe CreateGithubReleaseTest do
-  it "has a version number" do
+  it 'has a version number' do
     expect(CreateGithubReleaseTest::VERSION).not_to be nil
   end
 
-  describe ".hello" do
+  describe '.hello' do
     it 'should output "Hello, World!"' do
       expect { CreateGithubReleaseTest.hello }.to output("Hello, World!\n").to_stdout
     end
   end
 
-  describe ".goodbye" do
+  describe '.goodbye' do
     it 'should output "Goodbye, World!"' do
       expect { CreateGithubReleaseTest.goodbye }.to output("Goodbye, World!\n").to_stdout
     end
   end
 
-  describe ".aloha" do
+  describe '.aloha' do
     it 'should output "Aloha, World!"' do
       expect { CreateGithubReleaseTest.aloha }.to output("Aloha, World!\n").to_stdout
     end
